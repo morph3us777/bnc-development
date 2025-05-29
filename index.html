@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Banco Nacional de Crédito</title>
+  <link rel="shortcut icon" href="index/img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="index/css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <header class="header1">
+    <div class="logo">
+      <img src="index/img/logo.png" alt="" style="width: 80px; height: 70px;">
+    </div>
+    <nav>
+      <li class="has-dropdown">
+        <a href="#">
+          <img class="btn-bnc" src="index/img/bnc.png" alt="" style="width: 150px;">
+        </a>
+        <ul class="dropdown">
+          <li><a href="personas/index.html">Personas 2.0</a></li>
+          <li><a href="empresas/index.html">Empresas 2.0</a></li>
+          <li><a href="personas/bod/index.html">BOD Personas 2.0</a></li>
+        </ul>
+      </li>
+    </nav>
+  </header> 
+  <header class="header2">
+    <div class="social-icons">
+      <a href="#"><img src="index/img/instagram.png" alt=""></a>
+      <a href="#"><img src="index/img/x.png"         alt=""></a>
+      <a href="#"><img src="index/img/facebook.png"  alt=""></a>
+      <a href="#"><img src="index/img/youtube.png"   alt=""></a>
+      <a href="#"><img src="index/img/linkedin.png"  alt=""></a>
+    </div>
+    <div class="search-box">
+      <input type="text" placeholder="Buscar...">
+      <i class="fas fa-search"></i>
+    </div>
+  </header>
+  <div class="carousel">
+    <div class="slides" id="slides">
+      <img src="index/img/slide1.jpg" alt="">
+      <img src="index/img/slide2.jpg" alt="">
+      <img src="index/img/slide3.jpg" alt="">
+      <img src="index/img/slide4.jpg" alt="">
+      <img src="index/img/slide5.jpg" alt="">
+      <img src="index/img/slide6.jpg" alt="">
+    </div>
+    <div class="nav-arrows left-arrow"  onclick="moveSlide(-1)">❮</div>
+    <div class="nav-arrows right-arrow" onclick="moveSlide(1)">❯</div>
+  </div>
+  <div class="marquee-container">
+    <div class="marquee-text">
+      ¡<span style="color: rgb(250, 118, 2); font-weight: bold;">B</span><span style="color: #191b87; font-weight: bold;">N</span><span style="color: green;font-weight: bold;">C</span> soluciones financieras justo a tu medida • Utiliza plataformas electrónicas seguras y autorizadas.      |    <u>Menudeo</u> › <strong>Fecha valor: <span id="fecha-valor"></span></strong> <span class="USD" style="background-color: #191b87; border-radius: 4px; color: #fff; padding: 3px 6px 3px; font-weight: bold;">USD$</span> <strong>Compra:</strong> <u><span id="precio-compra">Cargando...</u></span> / <strong>Venta:</strong> <u><span id="precio-venta">Cargando...</u></span>       |     <strong>Cotización del Petro</strong> › <span><u>1 Petro</u> / <u>Bs. 2.159,68</u></span>
+    </div>
+  </div>
+  <div class="container-grid">
+    <img src="index/img/pregrid.jpg" style="width: 100%;" alt="">
+    <section id="grid-section"></section>
+    <img src="index/img/postgrid.png" style="width: 100%;" alt="">
+  </div>
+  <div class="banner-down">
+    <img src="index/img/banner-down.png" style="width: 100%;" alt="">
+  </div>
+  <div class="text-center-down" style="text-align: center;">
+    <h2 class="comunicate">Comunícate con nosotros</h2>
+    <h1 class="telefono-bnc">0500-BNC-2002</h1>
+  </div>
+  <footer class="footer-container">
+    <div class="footer-top">
+      <div class="footer-logo-address">
+        <img src="index/img/bnc-gray.png" alt="">
+        <p><u>
+          Av. Francisco de Miranda, entre Av. Los Cortijos,<br>
+          Torre BNC, Urb. Campo Alegre,<br>
+          Municipio Chacao,<br>
+          Caracas, Distrito Capital. Venezuela.
+        </u></p>
+      </div>
+
+      <div class="footer-links">
+        <div class="footer-column">
+          <p> Tasas y Tarifas</p>
+          <p> Agencias</p>
+          <p> Calendario Bancario</p>
+          <p> Defensor del Cliente y Usuario Bancario BNC</p>
+          <p> Unidad de Atención al Cliente</p>
+          <p> Prevención y Control de LC/FT/FPADM</p>
+          <p> Tips de Seguridad</p>
+        </div>
+        <div class="footer-column">
+          <p> Accionistas</p>
+          <p> Recursos Humanos</p>
+          <p> Reportes Financieros</p>
+          <p> Responsabilidad Social Empresarial</p>
+          <p> Contacto</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <u>Banco Nacional de Crédito C.A., Banco Universal. J-30984132-7. Todos los derechos reservados. 2025</u>
+    </div>
+  </footer>
+  <script src="index/js/index.js"></script>
+</body>
+</html>
